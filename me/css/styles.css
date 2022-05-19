@@ -199,7 +199,7 @@ a:hover
     z-index: 10;
     top: 0;
     left: 0;
-
+    background-color: #000;
     width: 50%;
     height: 100%;
 }
@@ -209,8 +209,7 @@ a:hover
     position: absolute;
     z-index: 1;
     top: 0;
-    left: 0;
-
+    left: 0%;
     width: 100%;
     height: 100%;
 
@@ -218,11 +217,12 @@ a:hover
         -o-transition: opacity 1s ease;
             transition: opacity 1s ease;
 
-    background: url(https://i.imgur.com/RE1ZsLT.jpg);
+    background: url(https://i.imgur.com/KNLedd1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-color: transparent;
 }
-.chango-container .chango-inc
+/**.chango-container .chango-inc
 {
     position: absolute;
     font-size: 700%;
@@ -240,7 +240,7 @@ a:hover
     left:37%;
     font-weight: thin;
     color:rgba(255, 255, 255, 0.549);
-}
+}**/
 .chango-container .chango-button
 {
     position: relative;
@@ -250,36 +250,37 @@ a:hover
 }
 .chango-container .chango-spanish
 {
-    border-radius: 50%;
-    position: relative;
     left:32%;
-    padding: 2% 2%;
+    position: relative;
     color:rgb(0, 0, 0);
+    border-radius: 50%;
+    border: 5px double rgb(0, 0, 0);
+    padding: 3% 3%;
     background: #f1ececd0;
 }
 .chango-container .chango-english
 {
-    border-radius: 80%;
-    position: relative;
     left:42%;
-    padding: 2% 2%;
     color:rgb(0, 0, 0);
+    position: relative;
+    border-radius: 50%;
+    padding: 3% 3%;
     background: #ffffffd0;
 }
 .chango-container .chango-spanish:hover
 {
+    left:30%;
     border-radius: 5%;
-    padding: 2% 2%;
     background: #d84444d0;
+    padding: 3% 3%;
     color:rgb(255, 255, 255);;
 }
-.chango-container .chango-english:hover
-{
+.chango-container .chango-english:hover{
+    left:40%;
     border-radius: 5%;
-    padding: 2% 2%;
     background: #4088c7;
+    padding: 3% 3%;
     color:rgb(255, 255, 255);;
-
 }
 @media (max-width:1200px)
 {
@@ -293,7 +294,49 @@ a:hover
         height: 100vh;
     }
 }
-
+@media (max-width:335px)
+{
+    .chango-container
+    {
+        position: relative;
+        z-index: 10;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 70vh;
+    }
+    .chango-container .background-img
+    {
+        position: relative;
+        left: 0;
+        height: 60%;
+    }
+    .chango-container .chango-button
+    {
+        position: relative;
+        font-size: 250%;
+        top:125%;
+        font-weight: bold;
+    }
+    .chango-container .chango-spanish
+    {
+        left:25%;
+        position: relative;
+        color:rgb(0, 0, 0);
+        border-radius: 50%;
+        padding: 3% 3%;
+        background: #f1ececd0;
+    }
+    .chango-container .chango-english
+    {
+        left:32%;
+        color:rgb(0, 0, 0);
+        position: relative;
+        border-radius: 50%;
+        padding: 3% 3%;
+        background: #ffffffd0;
+    }
+}
 
 
 /** 4. Content Area
