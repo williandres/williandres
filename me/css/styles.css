@@ -294,7 +294,7 @@ a:hover
         height: 100vh;
     }
 }
-@media (max-width:335px)
+@media (max-width:400px)
 {
     .chango-container
     {
@@ -314,7 +314,7 @@ a:hover
     .chango-container .chango-button
     {
         position: relative;
-        font-size: 500%;
+        font-size: 225%;
         top:125%;
         font-weight: bold;
     }
