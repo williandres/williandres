@@ -255,7 +255,7 @@ a:hover
     color:rgb(0, 0, 0);
     border-radius: 50%;
     padding: 2% 2%;
-    background: #f1ececf3;
+    background: #f1ececfd;
 }
 .chango-container .chango-english
 {
@@ -264,7 +264,7 @@ a:hover
     position: relative;
     border-radius: 50%;
     padding: 2% 2%;
-    background: #f1ececf3;
+    background: #f1ececfd;
 }
 .chango-container .chango-spanish:hover
 {
@@ -291,7 +291,7 @@ a:hover
         height: 100vh;
     }
 }
-@media (max-width:1200px)
+@media (max-width:1000px)
 {
     .chango-container
     {
@@ -333,6 +333,19 @@ a:hover
         padding: 2% 2%;
         background: #f1ececf3;
     }
+    .chango-container .chango-spanish:hover
+{
+    left:45%;
+    background: #d84444d0;
+    padding: 2% 2%;
+    color:rgb(255, 255, 255);;
+}
+    .chango-container .chango-english:hover{
+    left:54%;
+    background: #4088c7;
+    padding: 2% 2%;
+    color:rgb(255, 255, 255);;
+}
 }
 
 
