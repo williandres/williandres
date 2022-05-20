@@ -247,37 +247,38 @@ a:hover
     font-size: 225%;
     top:80%;
     font-weight: bold;
+    letter-spacing: 2px;
 }
 .chango-container .chango-spanish
 {
     left:32%;
     position: relative;
-    color:rgb(0, 0, 0);
+    color:rgb(255, 255, 255);
     border-radius: 50%;
-    padding: 2% 2%;
-    background: #f1ececfd;
+    padding: 3% 3%;
+    background: #d84444d0;
 }
 .chango-container .chango-english
 {
     left:42%;
-    color:rgb(0, 0, 0);
+    color:rgb(255, 255, 255);
     position: relative;
     border-radius: 50%;
-    padding: 2% 2%;
-    background: #f1ececfd;
+    padding: 3% 3%;
+    background: #4088c7;
 }
 .chango-container .chango-spanish:hover
 {
-    left:30%;
-    background: #d84444d0;
-    padding: 2% 2%;
-    color:rgb(255, 255, 255);;
+    left:31%;
+    background: #f1ececfd;
+    padding: 3% 3%;
+    color:rgb(0, 0, 0);;
 }
 .chango-container .chango-english:hover{
-    left:44%;
-    background: #4088c7;
-    padding: 2% 2%;
-    color:rgb(255, 255, 255);;
+    left:41%;
+    background: #fffffffd;
+    padding: 3% 3%;
+    color:rgb(0, 0, 0);;
 }
 @media (max-width:1200px)
 {
@@ -314,37 +315,38 @@ a:hover
         font-size: 245%;
         top:125%;
         font-weight: bold;
+        letter-spacing: 2px;
     }
     .chango-container .chango-spanish
     {
-        left:32%;
+        left:30%;
         position: relative;
         color:rgb(0, 0, 0);
         border-radius: 50%;
-        padding: 2% 2%;
-        background: #f1ececf3;
+        padding: 3% 3%;
+        background: #d84444d0;
     }
     .chango-container .chango-english
     {
-        left:38%;
+        left:36%;
         color:rgb(0, 0, 0);
         position: relative;
         border-radius: 50%;
-        padding: 2% 2%;
-        background: #f1ececf3;
+        padding: 3% 3%;
+        background: #4088c7;
     }
     .chango-container .chango-spanish:hover
 {
-    left:31%;
-    background: #d84444d0;
-    padding: 2% 2%;
-    color:rgb(255, 255, 255);;
+    left:29%;
+    background: #ffffffd0;
+    padding: 3% 3%;
+    color:rgb(0, 0, 0);;
 }
     .chango-container .chango-english:hover{
-    left:39%;
-    background: #4088c7;
-    padding: 2% 2%;
-    color:rgb(255, 255, 255);;
+    left:37%;
+    background: #ffffff;
+    padding: 3% 3%;
+    color:rgb(0, 0, 0);;
 }
 }
 
