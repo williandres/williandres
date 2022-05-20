@@ -291,7 +291,7 @@ a:hover
         height: 100vh;
     }
 }
-@media (max-width:1200px)
+@media (max-width:1000px)
 {
     .chango-container
     {
@@ -317,7 +317,7 @@ a:hover
     }
     .chango-container .chango-spanish
     {
-        left:25%;
+        left:30%;
         position: relative;
         color:rgb(0, 0, 0);
         border-radius: 50%;
@@ -326,7 +326,7 @@ a:hover
     }
     .chango-container .chango-english
     {
-        left:32%;
+        left:37%;
         color:rgb(0, 0, 0);
         position: relative;
         border-radius: 50%;
