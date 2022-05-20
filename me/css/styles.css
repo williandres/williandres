@@ -291,6 +291,18 @@ a:hover
         height: 100vh;
     }
 }
+@media (max-height:600px)
+{
+    .chango-container
+    {
+        position: relative;
+        z-index: 10;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 200vh;
+    }
+}
 @media (max-width:1000px)
 {
     .chango-container
