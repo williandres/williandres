@@ -259,7 +259,7 @@ a:hover
 }
 .chango-container .chango-english
 {
-    left:42%;
+    left:45%;
     color:rgb(0, 0, 0);
     position: relative;
     border-radius: 50%;
@@ -274,7 +274,7 @@ a:hover
     color:rgb(255, 255, 255);;
 }
 .chango-container .chango-english:hover{
-    left:44%;
+    left:47%;
     background: #4088c7;
     padding: 2% 2%;
     color:rgb(255, 255, 255);;
