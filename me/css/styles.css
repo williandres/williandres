@@ -8,7 +8,7 @@ html
 
 body
 {
-    font-family: 'Arapey', serif;
+    font-family: 'calibri', serif;
     font-weight: 300;
     font-style: normal;
 
@@ -25,7 +25,7 @@ h4,
 h5,
 h6
 {
-    font-family: 'Abril Fatface', cursive;
+    font-family: 'calibri', cursive;
     font-weight: normal;
 
     letter-spacing: .05em;
@@ -217,7 +217,7 @@ a:hover
         -o-transition: opacity 1s ease;
             transition: opacity 1s ease;
 
-    background: url(https://i.imgur.com/KNLedd1.jpg);
+    background: url(https://i.imgur.com/EtHkpJb.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-color: transparent;
@@ -244,39 +244,44 @@ a:hover
 .chango-container .chango-button
 {
     position: relative;
-    font-size: 225%;
+    font-size: 275%;
+    font-family: 'Arapey';
     top:80%;
-    font-weight: bold;
+    font-weight:bold;
 }
 .chango-container .chango-spanish
 {
     left:32%;
     position: relative;
     color:rgb(0, 0, 0);
-    border-radius: 50%;
+    border-radius: 100%;
+    border: outset 3px #d84444d0;
     padding: 2% 2%;
-    background: #f1ececfd;
+    background: #ffffff;
 }
 .chango-container .chango-english
 {
     left:45%;
     color:rgb(0, 0, 0);
     position: relative;
-    border-radius: 50%;
+    border: outset 3px #4088c7;
+    border-radius: 100%;
     padding: 2% 2%;
-    background: #f1ececfd;
+    background: #fffffffd;
 }
 .chango-container .chango-spanish:hover
 {
-    left:30%;
     background: #d84444d0;
     padding: 2% 2%;
+    border-radius: 10%;
+    border: none;
     color:rgb(255, 255, 255);;
 }
 .chango-container .chango-english:hover{
-    left:47%;
     background: #4088c7;
     padding: 2% 2%;
+    border-radius: 10%;
+    border: none;
     color:rgb(255, 255, 255);;
 }
 @media (max-width:1200px)
@@ -347,14 +352,14 @@ a:hover
     }
     .chango-container .chango-spanish:hover
 {
-    left:31%;
     background: #d84444d0;
+    border-radius: 10%;
     padding: 2% 2%;
     color:rgb(255, 255, 255);;
 }
     .chango-container .chango-english:hover{
-    left:39%;
     background: #4088c7;
+    border-radius: 10%;
     padding: 2% 2%;
     color:rgb(255, 255, 255);;
 }

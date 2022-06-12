@@ -99,7 +99,7 @@ input, select, textarea {
 	}
 
 	body {
-		background: linear-gradient(0deg, rgba(255,255,255,1) 9%, rgba(228,247,246,1) 39%, rgba(247,228,228,1) 100%);
+		background:linear-gradient(0deg, rgba(247,249,166,1) 17%, rgba(201,233,250,1) 57%, rgba(251,199,201,1) 92%);
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -200,6 +200,7 @@ input, select, textarea {
 
 	p {
 		margin: 0 0 2em 0;
+        font-size: 130%;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
@@ -3031,7 +3032,7 @@ input, select, textarea {
 
 	header p {
 		font-family: "Raleway", Helvetica, sans-serif;
-		font-size: 0.7em;
+		font-size: 0.9em;
 		font-weight: 400;
 		letter-spacing: 0.25em;
 		line-height: 2.5;
@@ -3383,12 +3384,14 @@ input, select, textarea {
 /* Main */
 
 	#main {
+        position:relative;
+        left:15%;
 		-moz-flex-grow: 1;
 		-webkit-flex-grow: 1;
 		-ms-flex-grow: 1;
 		flex-grow: 1;
 		-ms-flex: 1;
-		width: 100%;
+		width: 70%;
 	}
 
 /* Sidebar */
