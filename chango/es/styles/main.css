@@ -100,6 +100,7 @@ input, select, textarea {
 
 	body {
 		background: linear-gradient(0deg, rgba(255,255,255,1) 9%, rgba(228,247,246,1) 39%, rgba(247,228,228,1) 100%);
+	
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {

@@ -254,7 +254,7 @@ a:hover
     left:32%;
     position: relative;
     color:rgb(0, 0, 0);
-    border-radius: 100%;
+    border-radius: 10%;
     border: outset 3px #d84444d0;
     padding: 2% 2%;
     background: #ffffff;
@@ -265,7 +265,7 @@ a:hover
     color:rgb(0, 0, 0);
     position: relative;
     border: outset 3px #4088c7;
-    border-radius: 100%;
+    border-radius: 10%;
     padding: 2% 2%;
     background: #fffffffd;
 }
