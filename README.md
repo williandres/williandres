@@ -1,11 +1,5 @@
 ## @williandres
-**Data Science**
-
-**Machine learning**
-
-**Game development**
-
-**Electronic stuff**
+Soluciones tecnologicas.
 
 
  sca.willian@gmail.com
